@@ -7,7 +7,7 @@
   "info" : {
     "version" : "1.0.0",
     "title" : "home-iot-api_1",
-    "description" : "The API for the EatBacon IOT"
+    "description" : "The API for the EatBacon IOT fdtjukio"
   },
   "paths" : {
     "/devices" : {
