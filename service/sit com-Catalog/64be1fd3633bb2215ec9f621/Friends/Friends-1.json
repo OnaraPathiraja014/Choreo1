@@ -22,7 +22,7 @@
   "paths": {
     "/bookings": {
       "get": {
-        "summary": "Retrieve all taxi bookings",
+        "summary": "Retrieve all the taxi bookings",
         "responses": {
           "200": {
             "description": "Successful response",
