@@ -51,7 +51,38 @@
           }
         }
       },
-    
+      "post": {
+        "summary": "Create a new taxi booking",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "passenger": {
+                    "type": "string"
+                  },
+                  "driver": {
+                    "type": "string"
+                  },
+                  "pickup_location": {
+                    "type": "string"
+                  },
+                  "dropoff_location": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "passenger",
+                  "driver",
+                  "pickup_location",
+                  "dropoff_location"
+                ]
+              }
+            }
+          }
+        },
         "responses": {
           "201": {
             "description": "Taxi booking created successfully"
