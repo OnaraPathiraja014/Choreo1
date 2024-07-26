@@ -3,7 +3,7 @@
   "info": {
     "title": "Taxi Service API",
     "version": "1.0.0",
-    "description": "A RESTful CRUD API for managing taxi bookings, drivers, and ."
+    "description": "A RESTful CRUD API for managing taxi bookings, drivers, and cars"
   },
   "components": {
     "securitySchemes": {
